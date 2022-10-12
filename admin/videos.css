@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.top-container {
+    display: flex;
+    width: 90%;
+}
+
+.news-card img {
+    width: 275px;
+    height: 200px;
+}
+
+.news-card img {
+    object-fit: cover;
+}
+
+.news-card {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 25px; */
+}
+
+.news-card a {
+    text-decoration: none;
+    font-size: 14px;
+    color: blue;
+}
+
+.news-card a:hover {
+    text-decoration: underline;
+}
+.header{
+    display: flex;
+    width: 100%;
+    position: relative;
+    /* background-color: red; */
+}
+.header a{
+    
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    bottom: 0;
+
+}
+.navigate-button{
+    padding: 5px 15px;
+    width: auto;
+    height: auto;
+    background-color: #4DA3FF;
+    color: white;
+    font: inherit;
+    font-size: inherit;
+    border-radius: 5px;
+
+}
+
+#edit, #delete, #view{ 
+    padding: 5px 15px;
+    width: auto;
+    height: auto;
+    background-color: #0e9260b3;
+    color: white;
+    font: inherit;
+    font-size: inherit;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    
+}
+#delete{
+    background-color: red;
+    text-decoration: none;
+}
+#view{
+    background-color: #4DA3FF;
+}
+
+table, td, th {
+    border:1px solid rgb(12, 1, 1, 0.833);
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    /* width: 90%; */
+    margin-top: 15px;
+}
+th,td{
+    padding: 10px;
+}
+form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+    justify-content: space-around;  
+}
+form input, form textarea{
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #4DA3FF;
+    margin-bottom: 15px;
+}
+form input[type='file']{
+    padding: 10px 0px;
+    width: auto;
+    height: auto;
+    border: none;
+   
+}
+.form-control{
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #4DA3FF;
+    margin-bottom: 15px;
+}
+input[type="file"]::file-selector-button {
+    
+    width: auto;
+    height: auto;
+    margin: .25em 0;
+    padding: .4em 1.25em;
+    cursor: pointer;
+    margin-right: 0.5em;
+    background-color: rgba(9, 97, 145, 0.9);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    /* border: .1em solid rgba(128, 128, 128, 0.481); */
+    padding: .5em .75em;
+    font-size: 1.1em;
+    font-weight: bolder;
+    outline: none;
+}
+form input[type='submit']{
+    padding: 5px 15px;
+    width: auto;
+    height: auto;
+    background-color: #4DA3FF;
+    color: white;
+   
+}

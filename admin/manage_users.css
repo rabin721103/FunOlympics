@@ -1,0 +1,50 @@
+#delete,
+    #edit, #view, #block, #unblock, #remove  {
+    padding: 5px 15px;
+    width: auto;
+    height: auto;
+    background-color: #0e9260b3;
+    color: white;
+    font: inherit;
+    font-size: inherit;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+
+    
+}
+#delete, #remove{
+    background-color: #d20e0ea7;
+    
+}
+#view{
+    background-color: #4DA3FF;
+}
+#block{
+    background-color: rgba(195, 15, 21, 0.949);
+    text-decoration: none;
+}
+
+.bottom-container table{
+    border-radius: 10px;
+}
+
+
+table, td, th {
+    border:1px solid rgb(12, 1, 1, 0.833);
+    text-align: left;
+   
+}
+table td span{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    border-collapse: collapse;
+    /* width: 90%; */
+    margin-top: 15px;
+}
+th,td{
+    padding: 10px;
+}

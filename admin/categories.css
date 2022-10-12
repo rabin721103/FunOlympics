@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.top-container{
+    display: flex;
+    width: 90%;
+}
+.card{
+    margin: 10px;
+    display: flex;
+    padding: 15px;
+    width: 150px;
+    border: 1px solid #390581;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    transition: transform .2s;
+    position: relative;
+}
+.card i:first-child{
+    font-size: 12px;
+    position: absolute;
+    right: -5px;
+    background-color: rgb(159, 18, 18);
+    padding: 5px;
+    color: white;
+    top: -5px;
+    /* display: none; */
+    border-radius: 50%;
+    
+}
+.card:hover{
+    background-color: #3905814f;
+    border: none;
+    transform: scale(0.95);
+    cursor: pointer;
+
+}
+form{
+    display: flex;
+    padding: 30px;
+    width: 50%;
+    justify-content: space-around;
+
+    
+    
+}
